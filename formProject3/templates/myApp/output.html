@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>OUTPUT file</title>
+</head>
+<title>output file</title>
+</head>
+<body>
+<center>
+<h1 style="color:red"> Signup Details </h1><br>
+<h2> You hav successfully signed up... Thank you</h2>
+<br>
+<h2> Name:{{name1}}</h2>
+<h2> Roll:{{roll1}}</h2>
+<h2> Email:{{email1}}</h2>
+<h2> Phone:{{phone1}}</h2>
+<h2> Comments:{{comments1}}</h2>
+<h2>Engineering Student</h2>
+{% if AreUAnEngineeringStudent1 %}
+	<h2>You Are An Engineering Student</h2>
+{% else %}
+	<h2>non Engineering Student</h2>
+{% endif %}
+</center>
+</body>
+</html>
